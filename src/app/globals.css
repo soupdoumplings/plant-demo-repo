@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface: 60 15% 98%;
+  --surface-variant: 60 10% 94%;
+  --on-surface: 180 5% 10%;
+  --primary: 154 35% 18%;
+  --primary-foreground: 60 15% 98%;
+  --secondary: 35 25% 45%;
+  --secondary-foreground: 60 15% 98%;
+  --muted: 154 10% 40%;
+  --muted-foreground: 180 5% 45%;
+  --accent: 154 35% 18%;
+  --accent-foreground: 60 15% 98%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 180 5% 90%;
+  --input: 180 5% 90%;
+  --ring: 154 35% 18%;
+  --radius: 0px;
+}
+
+.dark {
+  --surface: 180 5% 10%;
+  --surface-variant: 180 5% 15%;
+  --on-surface: 60 15% 98%;
+  --primary: 154 25% 60%;
+  --primary-foreground: 180 5% 10%;
+  --secondary: 35 20% 50%;
+  --secondary-foreground: 180 5% 10%;
+  --muted: 154 10% 30%;
+  --muted-foreground: 180 5% 65%;
+  --accent: 154 25% 60%;
+  --accent-foreground: 180 5% 10%;
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 180 5% 20%;
+  --input: 180 5% 20%;
+  --ring: 154 25% 60%;
+}
+
+@layer base {
+  * { @apply border-border; }
+  body { @apply bg-surface text-on-surface font-sans; font-feature-settings: 'rlig' 1, 'calt' 1; }
+  h1, h2, h3, h4, h5, h6 { @apply font-serif font-normal; }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+}
+
+@layer components {
+  .btn-editorial { @apply h-14 px-8 uppercase tracking-[0.3em] text-[10px] font-bold transition-all duration-500 border border-on-surface/10 hover:border-primary hover:bg-primary hover:text-primary-foreground focus:ring-0 rounded-none; }
+  .card-curated { @apply bg-surface-variant/30 border border-on-surface/5 p-8 transition-all duration-700 hover:bg-surface-variant/50; }
+}
