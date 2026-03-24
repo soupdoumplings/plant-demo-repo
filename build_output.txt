@@ -1,0 +1,316 @@
+﻿  Γû▓ Next.js 14.2.35
+
+   Creating an optimized production build ...
+node.exe : <w> [webpack.
+cache.PackFileCacheStrat
+egy] Skipped not 
+serializable cache item 
+'Compilation/modules|C:\
+Users\LEGION\Documents\p
+rototype-2\plant-shop\no
+de_modules\next\dist\bui
+ld\webpack\loaders\css-l
+oader\src\index.js??rule
+Set[1].rules[14].oneOf[1
+2].use[2]!C:\Users\LEGIO
+N\Documents\prototype-2\
+plant-shop\node_modules\
+next\dist\build\webpack\
+loaders\postcss-loader\s
+rc\index.js??ruleSet[1].
+rules[14].oneOf[12].use[
+3]!C:\Users\LEGION\Docum
+ents\prototype-2\plant-s
+hop\src\app\globals.css'
+: No serializer 
+registered for 
+PostCSSSyntaxError
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo      
+        : NotSpecified  
+  : (<w> [webpack.ca.   
+ ..tCSSSyntaxError:S    
+tring) [], RemoteEx    
+ception
+    + FullyQualifiedErr 
+   orId : NativeComman  
+  dError
+ 
+<w> while serializing we
+bpack/lib/cache/PackFile
+CacheStrategy.PackConten
+tItems -> webpack/lib/No
+rmalModule -> webpack/li
+b/ModuleBuildError -> 
+PostCSSSyntaxError
+Failed to compile.
+
+./src/app/globals.css:44
+:5
+Syntax error: C:\Users\L
+EGION\Documents\prototyp
+e-2\plant-shop\src\app\g
+lobals.css The 
+`border-border` class 
+does not exist. If 
+`border-border` is a 
+custom class, make sure 
+it is defined within a 
+`@layer` directive.
+
+ [90m 42 | 
+[39m[33m}[39m
+ [90m 43 | [39m
+[1m[31m>[39m[22m[90
+m 44 | [39m* 
+[33m{[39m 
+[36m@apply[39m border-
+border[33m;[39m 
+[33m}[39m
+ [90m    | [39m    
+[1m[31m^[39m[22m
+ [90m 45 | [39mbody 
+[33m{[39m 
+[36m@apply[39m 
+bg-surface 
+text-on-surface 
+font-sans selection[33m
+:[39mbg-primary selecti
+on[33m:[39mtext-primar
+y-foreground[33m;[39m 
+font-feature-settings[3
+3m:[39m 
+[32m'rlig'[39m 1, 
+[32m'calt'[39m 
+1[33m;[39m [33m}[39m
+ [90m 46 | [39mh1, 
+h2, h3, h4, h5, h6 
+[33m{[39m 
+[36m@apply[39m 
+font-serif 
+font-normal[33m;[39m 
+[33m}[39m
+
+./src/app/globals.css
+Syntax error: C:\Users\L
+EGION\Documents\prototyp
+e-2\plant-shop\src\app\g
+lobals.css The 
+`border-border` class 
+does not exist. If 
+`border-border` is a 
+custom class, make sure 
+it is defined within a 
+`@layer` directive. 
+(1:1)
+
+[1m[31m>[39m[22m[90
+m 1 | [39m[36m@tailwin
+d[39m base[33m;[39m
+ [90m   | [39m[1m[31
+m^[39m[22m
+ [90m 2 | [39m[36m@ta
+ilwind[39m 
+components[33m;[39m
+ [90m 3 | [39m[36m@ta
+ilwind[39m 
+utilities[33m;[39m
+
+    at 
+tryRunOrWebpackError (C:
+\Users\LEGION\Documents\
+prototype-2\plant-shop\n
+ode_modules\next\dist\co
+mpiled\webpack\bundle5.j
+s:28:312989)
+    at __webpack_require
+_module__ (C:\Users\LEGI
+ON\Documents\prototype-2
+\plant-shop\node_modules
+\next\dist\compiled\webp
+ack\bundle5.js:28:131165
+)
+    at __nested_webpack_
+require_153728__ (C:\Use
+rs\LEGION\Documents\prot
+otype-2\plant-shop\node_
+modules\next\dist\compil
+ed\webpack\bundle5.js:28
+:130607)
+    at C:\Users\LEGION\D
+ocuments\prototype-2\pla
+nt-shop\node_modules\nex
+t\dist\compiled\webpack\
+bundle5.js:28:131454
+    at symbolIterator (C
+:\Users\LEGION\Documents
+\prototype-2\plant-shop\
+node_modules\next\dist\c
+ompiled\neo-async\async.
+js:1:14444)
+    at done (C:\Users\LE
+GION\Documents\prototype
+-2\plant-shop\node_modul
+es\next\dist\compiled\ne
+o-async\async.js:1:14824
+)
+    at Hook.eval [as 
+callAsync] (eval at 
+create (C:\Users\LEGION\
+Documents\prototype-2\pl
+ant-shop\node_modules\ne
+xt\dist\compiled\webpack
+\bundle5.js:13:28858), 
+<anonymous>:15:1)
+    at Hook.CALL_ASYNC_D
+ELEGATE [as _callAsync] 
+(C:\Users\LEGION\Documen
+ts\prototype-2\plant-sho
+p\node_modules\next\dist
+\compiled\webpack\bundle
+5.js:13:26012)
+    at C:\Users\LEGION\D
+ocuments\prototype-2\pla
+nt-shop\node_modules\nex
+t\dist\compiled\webpack\
+bundle5.js:28:130328
+    at symbolIterator (C
+:\Users\LEGION\Documents
+\prototype-2\plant-shop\
+node_modules\next\dist\c
+ompiled\neo-async\async.
+js:1:14402)
+-- inner error --
+Syntax error: C:\Users\L
+EGION\Documents\prototyp
+e-2\plant-shop\src\app\g
+lobals.css The 
+`border-border` class 
+does not exist. If 
+`border-border` is a 
+custom class, make sure 
+it is defined within a 
+`@layer` directive. 
+(1:1)
+
+[1m[31m>[39m[22m[90
+m 1 | [39m[36m@tailwin
+d[39m base[33m;[39m
+ [90m   | [39m[1m[31
+m^[39m[22m
+ [90m 2 | [39m[36m@ta
+ilwind[39m 
+components[33m;[39m
+ [90m 3 | [39m[36m@ta
+ilwind[39m 
+utilities[33m;[39m
+
+    at 
+Object.<anonymous> (C:\U
+sers\LEGION\Documents\pr
+ototype-2\plant-shop\nod
+e_modules\next\dist\buil
+d\webpack\loaders\css-lo
+ader\src\index.js??ruleS
+et[1].rules[14].oneOf[12
+].use[2]!C:\Users\LEGION
+\Documents\prototype-2\p
+lant-shop\node_modules\n
+ext\dist\build\webpack\l
+oaders\postcss-loader\sr
+c\index.js??ruleSet[1].r
+ules[14].oneOf[12].use[3
+]!C:\Users\LEGION\Docume
+nts\prototype-2\plant-sh
+op\src\app\globals.css:1
+:7)
+    at C:\Users\LEGION\D
+ocuments\prototype-2\pla
+nt-shop\node_modules\nex
+t\dist\compiled\webpack\
+bundle5.js:28:922493
+    at Hook.eval [as 
+call] (eval at create (C
+:\Users\LEGION\Documents
+\prototype-2\plant-shop\
+node_modules\next\dist\c
+ompiled\webpack\bundle5.
+js:13:28636), 
+<anonymous>:7:1)
+    at 
+Hook.CALL_DELEGATE [as 
+_call] (C:\Users\LEGION\
+Documents\prototype-2\pl
+ant-shop\node_modules\ne
+xt\dist\compiled\webpack
+\bundle5.js:13:25906)
+    at C:\Users\LEGION\D
+ocuments\prototype-2\pla
+nt-shop\node_modules\nex
+t\dist\compiled\webpack\
+bundle5.js:28:131198
+    at 
+tryRunOrWebpackError (C:
+\Users\LEGION\Documents\
+prototype-2\plant-shop\n
+ode_modules\next\dist\co
+mpiled\webpack\bundle5.j
+s:28:312943)
+    at __webpack_require
+_module__ (C:\Users\LEGI
+ON\Documents\prototype-2
+\plant-shop\node_modules
+\next\dist\compiled\webp
+ack\bundle5.js:28:131165
+)
+    at __nested_webpack_
+require_153728__ (C:\Use
+rs\LEGION\Documents\prot
+otype-2\plant-shop\node_
+modules\next\dist\compil
+ed\webpack\bundle5.js:28
+:130607)
+    at C:\Users\LEGION\D
+ocuments\prototype-2\pla
+nt-shop\node_modules\nex
+t\dist\compiled\webpack\
+bundle5.js:28:131454
+    at symbolIterator (C
+:\Users\LEGION\Documents
+\prototype-2\plant-shop\
+node_modules\next\dist\c
+ompiled\neo-async\async.
+js:1:14444)
+
+Generated code for C:\Us
+ers\LEGION\Documents\pro
+totype-2\plant-shop\node
+_modules\next\dist\build
+\webpack\loaders\css-loa
+der\src\index.js??ruleSe
+t[1].rules[14].oneOf[12]
+.use[2]!C:\Users\LEGION\
+Documents\prototype-2\pl
+ant-shop\node_modules\ne
+xt\dist\build\webpack\lo
+aders\postcss-loader\src
+\index.js??ruleSet[1].ru
+les[14].oneOf[12].use[3]
+!C:\Users\LEGION\Documen
+ts\prototype-2\plant-sho
+p\src\app\globals.css
+
+Import trace for 
+requested module:
+./src/app/globals.css
+
+
+> Build failed because 
+of webpack errors

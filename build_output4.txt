@@ -1,0 +1,226 @@
+﻿  Γû▓ Next.js 14.2.35
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+
+./src/app/account/orders/page.tsx
+7:16  Warning: 'CardContent' is defined but never used.  @typescript-eslint/no-unused-vars
+7:29  Warning: 'CardHeader' is defined but never used.  @typescript-eslint/no-unused-vars
+7:41  Warning: 'CardTitle' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/admin/orders/page.tsx
+6:41  Warning: 'CardTitle' is defined but never used.  @typescript-eslint/no-unused-vars
+8:10  Warning: 'cn' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/admin/orders/[id]/page.tsx
+6:16  Warning: 'CardContent' is defined but never used.  @typescript-eslint/no-unused-vars
+6:29  Warning: 'CardHeader' is defined but never used.  @typescript-eslint/no-unused-vars
+6:41  Warning: 'CardTitle' is defined but never used.  @typescript-eslint/no-unused-vars
+42:50  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/admin/page.tsx
+7:52  Warning: 'Settings' is defined but never used.  @typescript-eslint/no-unused-vars
+16:44  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/admin/products/edit/[slug]/page.tsx
+7:16  Warning: 'CardContent' is defined but never used.  @typescript-eslint/no-unused-vars
+7:29  Warning: 'CardHeader' is defined but never used.  @typescript-eslint/no-unused-vars
+7:41  Warning: 'CardTitle' is defined but never used.  @typescript-eslint/no-unused-vars
+8:21  Warning: 'Save' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/admin/products/new/page.tsx
+7:16  Warning: 'CardContent' is defined but never used.  @typescript-eslint/no-unused-vars
+7:29  Warning: 'CardHeader' is defined but never used.  @typescript-eslint/no-unused-vars
+7:41  Warning: 'CardTitle' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/admin/products/page.tsx
+6:41  Warning: 'CardTitle' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/admin/users/page.tsx
+5:10  Warning: 'User' is defined but never used.  @typescript-eslint/no-unused-vars
+5:32  Warning: 'Shield' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/api/admin/stats/route.ts
+27:63  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+38:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/admin/users/route.ts
+22:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+22:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/auth/login/route.ts
+25:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+25:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/auth/me/route.ts
+24:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+24:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/auth/register/route.ts
+27:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+27:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/cart/route.ts
+23:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+23:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+49:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+49:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+81:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+81:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/categories/route.ts
+17:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/newsletter/route.ts
+26:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+26:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/notify/route.ts
+31:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/openai/description/route.ts
+31:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/orders/checkout/route.ts
+61:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/orders/route.ts
+28:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+28:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+55:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+55:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/products/route.ts
+25:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+25:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+45:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+45:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/products/search/route.ts
+26:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/products/[slug]/route.ts
+25:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+55:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+55:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+78:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+78:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/storage/upload/route.ts
+19:13  Warning: 'data' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+32:12  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+32:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/api/stripe/checkout/route.ts
+6:31  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+13:40  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+34:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/app/cart/page.tsx
+9:16  Warning: 'CardContent' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/checkout/page.tsx
+8:10  Warning: 'Input' is defined but never used.  @typescript-eslint/no-unused-vars
+9:16  Warning: 'CardContent' is defined but never used.  @typescript-eslint/no-unused-vars
+9:29  Warning: 'CardHeader' is defined but never used.  @typescript-eslint/no-unused-vars
+9:41  Warning: 'CardTitle' is defined but never used.  @typescript-eslint/no-unused-vars
+10:10  Warning: 'ShoppingCart' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/app/products/[slug]/page.tsx
+8:42  Warning: 'Share2' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/sections/CategoriesBar.tsx
+4:10  Warning: 'Button' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/components/sections/FeaturedPlants.tsx
+44:100  Warning: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./src/components/ui/input.tsx
+4:18  Warning: An interface declaring no members is equivalent to its supertype.  @typescript-eslint/no-empty-object-type
+
+./src/components/ui/product-card.tsx
+4:29  Warning: 'CardFooter' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/lib/env.ts
+37:53  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/lib/supabase/server.ts
+19:20  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+26:20  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/middleware.ts
+4:28  Warning: 'request' is defined but never used.  @typescript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+node.exe : Failed to 
+compile.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo      
+        : NotSpecified  
+  : (Failed to compil   
+ e.:String) [], Remo    
+teException
+    + FullyQualifiedErr 
+   orId : NativeComman  
+  dError
+ 
+
+./src/app/api/notify/rou
+te.ts:2:24
+Type error: Could not 
+find a declaration file 
+for module 
+'nodemailer'. 'C:/Users/
+LEGION/Documents/prototy
+pe-2/plant-shop/node_mod
+ules/nodemailer/lib/node
+mailer.js' implicitly 
+has an 'any' type.
+  Try `npm i --save-dev 
+@types/nodemailer` if 
+it exists or add a new 
+declaration (.d.ts) 
+file containing 
+`declare module 
+'nodemailer';`
+
+[0m [90m 1 |[39m 
+[36mimport[39m { 
+[33mNextResponse[39m 
+} [36mfrom[39m [32m"n
+ext/server"[39m[33m;[
+39m[0m
+[0m[31m[1m>[22m[39m
+[90m 2 |[39m 
+[36mimport[39m 
+nodemailer 
+[36mfrom[39m [32m"nod
+emailer"[39m[33m;[39m
+[0m
+[0m [90m   |[39m     
+                   
+[31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m 
+[36mimport[39m { env 
+} [36mfrom[39m [32m"@
+/lib/env"[39m[33m;[39
+m[0m
+[0m [90m 4 |[39m[0m
+[0m [90m 5 |[39m 
+[36mexport[39m 
+[36masync[39m 
+[36mfunction[39m [33m
+POST[39m(request[33m:
+[39m [33mRequest[39m) 
+{[0m
+Next.js build worker 
+exited with code: 1 and 
+signal: null

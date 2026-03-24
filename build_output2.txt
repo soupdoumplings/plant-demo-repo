@@ -1,0 +1,495 @@
+﻿  Γû▓ Next.js 14.2.35
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+node.exe : 
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo      
+        : NotSpecified: 
+(:St    ring) [], 
+RemoteExcept    ion
+    + 
+FullyQualifiedErrorI    
+d : NativeCommandError
+ 
+Failed to compile.
+
+./src/app/account/orders
+/page.tsx
+7:16  Error: 
+'CardContent' is 
+defined but never used. 
+ @typescript-eslint/no-u
+nused-vars
+7:29  Error: 
+'CardHeader' is defined 
+but never used.  @typesc
+ript-eslint/no-unused-va
+rs
+7:41  Error: 
+'CardTitle' is defined 
+but never used.  @typesc
+ript-eslint/no-unused-va
+rs
+
+./src/app/admin/orders/p
+age.tsx
+6:41  Error: 
+'CardTitle' is defined 
+but never used.  @typesc
+ript-eslint/no-unused-va
+rs
+8:10  Error: 'cn' is 
+defined but never used. 
+ @typescript-eslint/no-u
+nused-vars
+
+./src/app/admin/orders/[
+id]/page.tsx
+6:16  Error: 
+'CardContent' is 
+defined but never used. 
+ @typescript-eslint/no-u
+nused-vars
+6:29  Error: 
+'CardHeader' is defined 
+but never used.  @typesc
+ript-eslint/no-unused-va
+rs
+6:41  Error: 
+'CardTitle' is defined 
+but never used.  @typesc
+ript-eslint/no-unused-va
+rs
+42:50  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/admin/page.tsx
+7:52  Error: 'Settings' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+16:44  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/admin/products
+/edit/[slug]/page.tsx
+7:16  Error: 
+'CardContent' is 
+defined but never used. 
+ @typescript-eslint/no-u
+nused-vars
+7:29  Error: 
+'CardHeader' is defined 
+but never used.  @typesc
+ript-eslint/no-unused-va
+rs
+7:41  Error: 
+'CardTitle' is defined 
+but never used.  @typesc
+ript-eslint/no-unused-va
+rs
+8:21  Error: 'Save' is 
+defined but never used. 
+ @typescript-eslint/no-u
+nused-vars
+
+./src/app/admin/products
+/new/page.tsx
+7:16  Error: 
+'CardContent' is 
+defined but never used. 
+ @typescript-eslint/no-u
+nused-vars
+7:29  Error: 
+'CardHeader' is defined 
+but never used.  @typesc
+ript-eslint/no-unused-va
+rs
+7:41  Error: 
+'CardTitle' is defined 
+but never used.  @typesc
+ript-eslint/no-unused-va
+rs
+
+./src/app/admin/products
+/page.tsx
+6:41  Error: 
+'CardTitle' is defined 
+but never used.  @typesc
+ript-eslint/no-unused-va
+rs
+
+./src/app/admin/users/pa
+ge.tsx
+5:10  Error: 'User' is 
+defined but never used. 
+ @typescript-eslint/no-u
+nused-vars
+5:32  Error: 'Shield' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+
+./src/app/api/admin/stat
+s/route.ts
+27:63  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+38:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/admin/user
+s/route.ts
+22:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+22:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/auth/login
+/route.ts
+25:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+25:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/auth/me/ro
+ute.ts
+24:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+24:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/auth/regis
+ter/route.ts
+27:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+27:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/cart/route
+.ts
+23:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+23:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+49:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+49:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+81:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+81:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/categories
+/route.ts
+17:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/newsletter
+/route.ts
+26:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+26:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/notify/rou
+te.ts
+31:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/openai/des
+cription/route.ts
+31:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/orders/che
+ckout/route.ts
+61:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/orders/rou
+te.ts
+28:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+28:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+55:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+55:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/products/r
+oute.ts
+25:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+25:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+45:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+45:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/products/s
+earch/route.ts
+26:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/products/[
+slug]/route.ts
+25:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+55:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+55:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+78:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+78:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/storage/up
+load/route.ts
+19:13  Error: 'data' is 
+assigned a value but 
+never used.  @typescript
+-eslint/no-unused-vars
+32:12  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+32:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/api/stripe/che
+ckout/route.ts
+6:31  Error: Unexpected 
+any. Specify a 
+different type.  @typesc
+ript-eslint/no-explicit-
+any
+13:40  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+34:19  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/app/cart/page.tsx
+9:16  Error: 
+'CardContent' is 
+defined but never used. 
+ @typescript-eslint/no-u
+nused-vars
+
+./src/app/checkout/page.
+tsx
+8:10  Error: 'Input' is 
+defined but never used. 
+ @typescript-eslint/no-u
+nused-vars
+9:16  Error: 
+'CardContent' is 
+defined but never used. 
+ @typescript-eslint/no-u
+nused-vars
+9:29  Error: 
+'CardHeader' is defined 
+but never used.  @typesc
+ript-eslint/no-unused-va
+rs
+9:41  Error: 
+'CardTitle' is defined 
+but never used.  @typesc
+ript-eslint/no-unused-va
+rs
+10:10  Error: 
+'ShoppingCart' is 
+defined but never used. 
+ @typescript-eslint/no-u
+nused-vars
+
+./src/app/products/[slug
+]/page.tsx
+8:42  Error: 'Share2' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+
+./src/components/section
+s/CategoriesBar.tsx
+4:10  Error: 'Button' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+
+./src/components/section
+s/FeaturedPlants.tsx
+44:100  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  rea
+ct/no-unescaped-entities
+
+./src/components/ui/inpu
+t.tsx
+4:18  Error: An 
+interface declaring no 
+members is equivalent 
+to its supertype.  @type
+script-eslint/no-empty-o
+bject-type
+
+./src/components/ui/prod
+uct-card.tsx
+4:29  Error: 
+'CardFooter' is defined 
+but never used.  @typesc
+ript-eslint/no-unused-va
+rs
+
+./src/lib/env.ts
+37:53  Error: 
+Unexpected any. Specify 
+a different type.  @type
+script-eslint/no-explici
+t-any
+
+./src/lib/supabase/serve
+r.ts
+19:20  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+26:20  Error: 'error' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+
+./src/middleware.ts
+4:28  Error: 'request' 
+is defined but never 
+used.  @typescript-eslin
+t/no-unused-vars
+
+info  - Need to disable 
+some ESLint rules? 
+Learn more here: https:/
+/nextjs.org/docs/basic-f
+eatures/eslint#disabling
+-rules
