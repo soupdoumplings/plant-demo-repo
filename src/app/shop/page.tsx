@@ -14,8 +14,8 @@ export default function ShopPage() {
       <Header />
       <main className="flex-1">
         <div className="container mx-auto px-4 py-24">
-          <h1 className="text-5xl md:text-7xl font-serif mb-6 tracking-tight text-center">Botanical Collection</h1>
-          <p className="text-center text-muted-foreground italic max-w-2xl mx-auto">Explore our full registry of elevated flora, curated for the modern home.</p>
+          <h1 className="text-5xl md:text-7xl font-serif mb-6 tracking-tight text-center italic">The Discovery Portfolio</h1>
+          <p className="text-center text-muted-foreground uppercase tracking-[0.2em] text-[0.6875rem] max-w-2xl mx-auto">An archival registry of high-altitude specimens curated for the conscious collector.</p>
         </div>
         <CategoriesBar 
           activeCategory={activeCategory} 

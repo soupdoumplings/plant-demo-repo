@@ -20,7 +20,7 @@ export default function HomePage() {
         <div className="flex items-center gap-12">
           <Link href="/" className="font-serif italic text-2xl text-[#31332c] dark:text-[#fbf9f4] tracking-tight">VERDANT</Link>
           <div className="hidden md:flex gap-8 font-serif text-sm tracking-tight uppercase">
-            <a className="text-[#785a1a] dark:text-[#785a1a] border-b border-[#785a1a] transition-all duration-300" href="/shop">Shop</a>
+            <Link className="text-[#31332c] dark:text-[#fbf9f4] opacity-70 hover:opacity-100 hover:text-[#456565] transition-all duration-300" href="/shop">Collection</Link>
             <a className="text-[#31332c] dark:text-[#fbf9f4] opacity-70 hover:opacity-100 hover:text-[#456565] transition-all duration-300" href="#">The Journal</a>
             <a className="text-[#31332c] dark:text-[#fbf9f4] opacity-70 hover:opacity-100 hover:text-[#456565] transition-all duration-300" href="/diagnose">Care Guides</a>
             <a className="text-[#31332c] dark:text-[#fbf9f4] opacity-70 hover:opacity-100 hover:text-[#456565] transition-all duration-300" href="#">Archive</a>
@@ -30,9 +30,11 @@ export default function HomePage() {
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer text-[#31332c] dark:text-[#fbf9f4]">
             <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
           </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer text-[#31332c] dark:text-[#fbf9f4]">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-          </svg>
+          <Link href="/cart">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer text-[#31332c] dark:text-[#fbf9f4]">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+            </svg>
+          </Link>
           <Link href="/login">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer text-[#31332c] dark:text-[#fbf9f4]">
               <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
@@ -83,7 +85,7 @@ export default function HomePage() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Product 1 */}
-          <div className="group cursor-pointer">
+          <Link href="/products/meconopsis-grandis" className="group cursor-pointer">
             <div className="aspect-[4/5] overflow-hidden bg-surface-container mb-6">
               <img alt="Meconopsis Grandis" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3l-FQwgqwzcoP8K5ij1-H7BUjOeF6wNXz_wsXMMfpCgTxNDFZg-Z024jRCTNeOpLDzaP1-BI-lPRgRd3I5JZ3ndQd-7mhjrijJ7WuJVG8aN52IrIyzxvqvITNwQ6p5mussE0r60js_h5NDKKD9QPakYx08PfEpTCOYTNzFFqQ20bDmEj--eWSlkvDyT8qfqjMtnTn_mClsr_VTuN4kKoW4a_JcnoTqiNV-YXGtflhqVOrmXX7ADMXzVL6X9Pox_xJxfc7Dgs-nSxY"/>
             </div>
@@ -94,9 +96,9 @@ export default function HomePage() {
               </div>
               <span className="font-serif text-xl">रू 12,500</span>
             </div>
-          </div>
+          </Link>
           {/* Product 2 */}
-          <div className="group cursor-pointer">
+          <Link href="/products/coelogyne-corymbosa" className="group cursor-pointer">
             <div className="aspect-[4/5] overflow-hidden bg-surface-container mb-6">
               <img alt="Coelogyne Corymbosa" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVdfQeXCAmjKoYDZ6MCLDvKpYGDa_IdmCK7hTk7bhtgirzlMoqZlxb7b2mTdwYYhBLlMhQDTgPg9gmV98-Y04gQgsIlNxHNyEFMkkIYyd_fcNYPjfhAUL8gJxGAYW4OeEXrDv7Bg0y5qgvdcgopPIiMp-u-jEFGfWZRSfAGlN4ZEVL49EINOfTqS80S8lli3D0fwxU80XSpwwgkLyjGeCaP9NSGAmDiu4QDxtkOaJfJzZWCpJs5Ond4oC7a5gyXexaS-PTnZ8jqwAJ"/>
             </div>
@@ -107,9 +109,9 @@ export default function HomePage() {
               </div>
               <span className="font-serif text-xl">रू 18,200</span>
             </div>
-          </div>
+          </Link>
           {/* Product 3 */}
-          <div className="group cursor-pointer">
+          <Link href="/products/primula-sikkimensis" className="group cursor-pointer">
             <div className="aspect-[4/5] overflow-hidden bg-surface-container mb-6">
               <img alt="Primula Himalayan" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARfP-pF709VLlZAeEB4jRPR2w3_IYupe45C4kAozrvFiau86rpJWSzCK6fridaCtlDXrdRsuzhoUDbZaY1oilZW1eBt8l5hL9gLOOr1QztWXbsuWXT-Haga_80__RVkDAsNd6y5K-vwIZY4X0ZbaYaqOZydaIY_MORezChRus2nsp3B5IpPstsWPmLdrVCaX6r_0fD0vRIzHa8iGS1yZ22s9ANUowdVXHbRWT32YdvAKUQ4IlxM6cV6LMpkdwMS9aUMgS1syGO7BPq"/>
             </div>
@@ -120,7 +122,7 @@ export default function HomePage() {
               </div>
               <span className="font-serif text-xl">रू 6,900</span>
             </div>
-          </div>
+          </Link>
         </div>
       </section>
 

@@ -10,7 +10,7 @@ import { Search } from "./Search";
 
 const NAV_LINKS = [
   { name: "Home", href: "/" },
-  { name: "Shop", href: "/shop" },
+  { name: "Collection", href: "/shop" },
   { name: "Care Guides", href: "/diagnose" },
 ];
 

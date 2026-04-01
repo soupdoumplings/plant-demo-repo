@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Head from 'next/head';
 
 export default function DiagnosePage() {
@@ -15,25 +16,25 @@ export default function DiagnosePage() {
       <nav className="bg-[#fbf9f4] dark:bg-[#1a1a1a] border-b border-[#31332c]/10 dark:border-[#fbf9f4]/10 fixed top-0 w-full z-50">
         <div className="flex justify-between items-center w-full px-12 py-6 max-w-[1920px] mx-auto">
           <div className="flex items-center gap-12">
-            <a className="font-headline italic text-2xl text-[#31332c] dark:text-[#fbf9f4] tracking-tight" href="/">VERDANT</a>
+            <Link className="font-headline italic text-2xl text-[#31332c] dark:text-[#fbf9f4] tracking-tight" href="/">VERDANT</Link>
             <div className="hidden md:flex gap-8 items-center">
-              <a className="font-headline text-sm tracking-tight uppercase text-[#31332c] dark:text-[#fbf9f4] opacity-70 hover:opacity-100 hover:text-[#456565] transition-all duration-300" href="/shop">Shop</a>
+              <Link className="font-headline text-sm tracking-tight uppercase text-[#31332c] dark:text-[#fbf9f4] opacity-70 hover:opacity-100 hover:text-[#456565] transition-all duration-300" href="/shop">Collection</Link>
               <a className="font-headline text-sm tracking-tight uppercase text-[#31332c] dark:text-[#fbf9f4] opacity-70 hover:opacity-100 hover:text-[#456565] transition-all duration-300" href="#">The Journal</a>
-              <a className="font-headline text-sm tracking-tight uppercase text-[#785a1a] dark:text-[#785a1a] border-b border-[#785a1a] transition-all duration-300" href="/diagnose">Care Guides</a>
+              <Link className="font-headline text-sm tracking-tight uppercase text-[#785a1a] dark:text-[#785a1a] border-b border-[#785a1a] transition-all duration-300" href="/diagnose">Discovery</Link>
               <a className="font-headline text-sm tracking-tight uppercase text-[#31332c] dark:text-[#fbf9f4] opacity-70 hover:opacity-100 hover:text-[#456565] transition-all duration-300" href="#">Archive</a>
             </div>
           </div>
           <div className="flex items-center gap-6">
-            <button className="scale-100 active:scale-95 transition-all duration-300">
+            <Link href="/cart" className="scale-100 active:scale-95 transition-all duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-[#31332c] dark:text-[#fbf9f4]">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
               </svg>
-            </button>
-            <button className="scale-100 active:scale-95 transition-all duration-300">
+            </Link>
+            <Link href="/login" className="scale-100 active:scale-95 transition-all duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-[#31332c] dark:text-[#fbf9f4]">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
               </svg>
-            </button>
+            </Link>
           </div>
         </div>
       </nav>
