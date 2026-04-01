@@ -1,7 +1,18 @@
+"use client";
+
 import React from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 export default function RegisterPage() {
+  const router = useRouter();
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    // Simulate registration success
+    router.push('/');
+  };
+
   return (
     <div className="bg-[#fbf9f4] text-[#31332c] selection:bg-[#c6e9e9] min-h-screen font-sans antialiased overflow-hidden">
       <style dangerouslySetInnerHTML={{__html: `
@@ -59,7 +70,7 @@ export default function RegisterPage() {
             </header>
 
             {/* Authentication Form */}
-            <form className="space-y-8">
+            <form className="space-y-8" onSubmit={handleSubmit}>
               {/* Name Field */}
               <div className="group">
                 <label className="block font-label text-[0.6rem] uppercase tracking-[0.1rem] text-[#31332c]/60 mb-2 transition-colors group-focus-within:text-[#785a1a]" htmlFor="name">
@@ -71,6 +82,7 @@ export default function RegisterPage() {
                   name="name" 
                   placeholder="Your Name" 
                   type="text"
+                  required
                 />
               </div>
 
@@ -85,6 +97,7 @@ export default function RegisterPage() {
                   name="email" 
                   placeholder="Email Address" 
                   type="email"
+                  required
                 />
               </div>
 
@@ -99,6 +112,7 @@ export default function RegisterPage() {
                   name="password" 
                   placeholder="••••••••" 
                   type="password"
+                  required
                 />
               </div>
 
@@ -132,7 +146,7 @@ export default function RegisterPage() {
             <footer className="pt-12">
               <p className="font-label text-[0.55rem] text-[#797c73] leading-loose uppercase tracking-[0.05rem]">
                 © 2024 VERDANT BOTANICALS. <br/>
-                By joining, you agree to our <a className="underline hover:text-[#785a1a]" href="#">Care Terms</a> &amp; <a className="underline hover:text-[#785a1a]" href="#">Privacy Standards</a>.
+                By joining, you agree to our <Link className="underline hover:text-[#785a1a]" href="/">Care Terms</Link> & <Link className="underline hover:text-[#785a1a]" href="/">Privacy Standards</Link>.
               </p>
             </footer>
           </div>

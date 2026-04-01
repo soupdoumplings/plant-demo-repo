@@ -1,7 +1,18 @@
+"use client";
+
 import React from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 export default function LoginPage() {
+  const router = useRouter();
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    // Simulate authentication success
+    router.push('/');
+  };
+
   return (
     <div className="bg-[#fbf9f4] text-[#31332c] selection:bg-[#c6e9e9] min-h-screen font-sans antialiased overflow-hidden">
       <style dangerouslySetInnerHTML={{__html: `
@@ -59,7 +70,7 @@ export default function LoginPage() {
             </header>
 
             {/* Authentication Form */}
-            <form className="space-y-10">
+            <form className="space-y-10" onSubmit={handleSubmit}>
               {/* Email Field */}
               <div className="group">
                 <label className="block font-label text-[0.6rem] uppercase tracking-[0.1rem] text-[#31332c]/60 mb-2 transition-colors group-focus-within:text-[#785a1a]" htmlFor="email">
@@ -71,6 +82,7 @@ export default function LoginPage() {
                   name="email" 
                   placeholder="Email Address" 
                   type="email"
+                  required
                 />
               </div>
 
@@ -91,6 +103,7 @@ export default function LoginPage() {
                     name="password" 
                     placeholder="••••••••" 
                     type="password"
+                    required
                   />
                   <button className="absolute right-0 top-1/2 -translate-y-1/2 text-[#31332c]/40 hover:text-[#31332c]" type="button">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
@@ -131,7 +144,7 @@ export default function LoginPage() {
             <footer className="pt-12">
               <p className="font-label text-[0.55rem] text-[#797c73] leading-loose uppercase tracking-[0.05rem]">
                 © 2024 VERDANT BOTANICALS. <br/>
-                By entering, you agree to our <a className="underline hover:text-[#785a1a]" href="#">Care Terms</a> &amp; <a className="underline hover:text-[#785a1a]" href="#">Privacy Standards</a>.
+                By entering, you agree to our <Link className="underline hover:text-[#785a1a]" href="/">Care Terms</Link> & <Link className="underline hover:text-[#785a1a]" href="/">Privacy Standards</Link>.
               </p>
             </footer>
           </div>
