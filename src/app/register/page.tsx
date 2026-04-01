@@ -104,12 +104,27 @@ export default function RegisterPage() {
               {/* Password Field */}
               <div className="group">
                 <label className="block font-label text-[0.6rem] uppercase tracking-[0.1rem] text-[#31332c]/60 mb-2 transition-colors group-focus-within:text-[#785a1a]" htmlFor="password">
-                  Security Key
+                  Security Key (Password)
                 </label>
                 <input 
                   className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0" 
                   id="password" 
                   name="password" 
+                  placeholder="••••••••" 
+                  type="password"
+                  required
+                />
+              </div>
+
+              {/* Confirm Password Field */}
+              <div className="group">
+                <label className="block font-label text-[0.6rem] uppercase tracking-[0.1rem] text-[#31332c]/60 mb-2 transition-colors group-focus-within:text-[#785a1a]" htmlFor="confirm-password">
+                  Confirm Security Key
+                </label>
+                <input 
+                  className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0" 
+                  id="confirm-password" 
+                  name="confirm-password" 
                   placeholder="••••••••" 
                   type="password"
                   required
