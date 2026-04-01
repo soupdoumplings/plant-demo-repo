@@ -54,7 +54,7 @@ export default function LoginPage() {
             {/* Toggle Flow (Login/Signup Tabs) */}
             <div className="flex space-x-8 mb-16">
               <button className="font-label text-[0.6875rem] uppercase tracking-[0.15rem] text-[#31332c] border-b border-[#31332c] pb-2 font-semibold">
-                Access Your Portfolio
+                Member Access
               </button>
               <Link href="/register" className="font-label text-[0.6875rem] uppercase tracking-[0.15rem] text-[#31332c]/40 hover:text-[#31332c] transition-colors duration-300 pb-2">
                 Join the Archive
@@ -65,7 +65,7 @@ export default function LoginPage() {
             <header className="space-y-4">
               <h1 className="font-headline text-5xl font-light tracking-tight text-[#31332c]">Welcome back.</h1>
               <p className="font-body text-[#5e6058]/80 text-sm leading-relaxed max-w-xs">
-                Continue your journey through our curated botanical collections.
+                Continue your journey through our curated botanical collections and orders.
               </p>
             </header>
 
@@ -80,7 +80,7 @@ export default function LoginPage() {
                   className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0" 
                   id="email" 
                   name="email" 
-                  placeholder="Email Address" 
+                  placeholder="Your botanical account" 
                   type="email"
                   required
                 />
@@ -120,7 +120,7 @@ export default function LoginPage() {
                   className="w-full bg-[#5f5e5e] text-[#faf7f6] font-label text-[0.75rem] uppercase tracking-[0.2rem] py-5 px-8 hover:bg-[#456565] transition-all duration-500 shadow-sm active:scale-[0.98]" 
                   type="submit"
                 >
-                  Enter Portfolio
+                  Enter Account
                 </button>
 
                 {/* Social Auth Alternative */}

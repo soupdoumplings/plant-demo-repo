@@ -54,7 +54,7 @@ export default function RegisterPage() {
             {/* Toggle Flow (Login/Signup Tabs) */}
             <div className="flex space-x-8 mb-16">
               <Link href="/login" className="font-label text-[0.6875rem] uppercase tracking-[0.15rem] text-[#31332c]/40 hover:text-[#31332c] transition-colors duration-300 pb-2">
-                Access Your Portfolio
+                Member Access
               </Link>
               <button className="font-label text-[0.6875rem] uppercase tracking-[0.15rem] text-[#31332c] border-b border-[#31332c] pb-2 font-semibold">
                 Join the Archive

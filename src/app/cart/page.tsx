@@ -101,9 +101,9 @@ export default function CartPage() {
         {isUnauthorized ? (
           <div className="text-center py-32 border border-[#31332c]/5 bg-[#f5f4ed]">
             <h2 className="text-3xl font-serif mb-6 italic">Specimen Selection Locked</h2>
-            <p className="font-label text-[0.6875rem] uppercase tracking-[0.2rem] text-muted-foreground mb-12 max-w-sm mx-auto">Please authenticate your digital portfolio to manage your botanical selections.</p>
+            <p className="font-label text-[0.6875rem] uppercase tracking-[0.2rem] text-muted-foreground mb-12 max-w-sm mx-auto">Please authenticate your account to manage your botanical selections.</p>
             <Link href="/login">
-              <Button size="lg" className="bg-[#5f5e5e] text-[#faf7f6] px-12 h-14 rounded-none hover:bg-[#31332c] transition-all uppercase tracking-widest text-[10px]">Enter Portfolio</Button>
+              <Button size="lg" className="bg-[#5f5e5e] text-[#faf7f6] px-12 h-14 rounded-none hover:bg-[#31332c] transition-all uppercase tracking-widest text-[10px]">Enter Account</Button>
             </Link>
           </div>
         ) : cartItems.length === 0 ? (
