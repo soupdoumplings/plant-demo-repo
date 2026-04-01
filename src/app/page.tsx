@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function HomePage() {
   return (
@@ -17,7 +18,7 @@ export default function HomePage() {
       {/* TopAppBar */}
       <nav className="bg-[#fbf9f4] dark:bg-[#1a1a1a] border-b border-[#31332c]/10 dark:border-[#fbf9f4]/10 flex justify-between items-center w-full px-12 py-6 max-w-[1920px] mx-auto fixed top-0 z-50">
         <div className="flex items-center gap-12">
-          <span className="font-serif italic text-2xl text-[#31332c] dark:text-[#fbf9f4] tracking-tight">VERDANT</span>
+          <Link href="/" className="font-serif italic text-2xl text-[#31332c] dark:text-[#fbf9f4] tracking-tight">VERDANT</Link>
           <div className="hidden md:flex gap-8 font-serif text-sm tracking-tight uppercase">
             <a className="text-[#785a1a] dark:text-[#785a1a] border-b border-[#785a1a] transition-all duration-300" href="/shop">Shop</a>
             <a className="text-[#31332c] dark:text-[#fbf9f4] opacity-70 hover:opacity-100 hover:text-[#456565] transition-all duration-300" href="#">The Journal</a>
@@ -32,9 +33,11 @@ export default function HomePage() {
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer text-[#31332c] dark:text-[#fbf9f4]">
             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
           </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer text-[#31332c] dark:text-[#fbf9f4]">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-          </svg>
+          <Link href="/login">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer text-[#31332c] dark:text-[#fbf9f4]">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+            </svg>
+          </Link>
         </div>
       </nav>
 
@@ -50,10 +53,10 @@ export default function HomePage() {
             Himalayan <br/> <span className="italic font-light">Elegance.</span>
           </h1>
           <div className="flex flex-col md:flex-row gap-8 items-start md:items-center">
-            <button className="bg-white text-on-surface px-10 py-4 text-sm uppercase tracking-widest hover:bg-on-surface hover:text-white transition-colors">
+            <Link href="/shop" className="bg-white text-on-surface px-10 py-4 text-sm uppercase tracking-widest hover:bg-on-surface hover:text-white transition-colors">
               Explore the Archive
-            </button>
-            <div className="flex items-center gap-4 group cursor-pointer">
+            </Link>
+            <Link href="/diagnose" className="flex items-center gap-4 group cursor-pointer">
               <div className="w-12 h-12 border border-white/30 flex items-center justify-center backdrop-blur-sm">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 text-white">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z" />
@@ -64,7 +67,7 @@ export default function HomePage() {
                 <p className="font-label text-[10px] uppercase tracking-widest text-white/80">AI Powered</p>
                 <p className="font-serif italic text-lg text-white">AI Diagnosis</p>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </header>
