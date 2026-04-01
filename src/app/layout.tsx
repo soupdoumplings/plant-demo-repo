@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif" });
 
 export const metadata: Metadata = {
-  title: "Petals & Pots | Curated Botanical Boutique",
-  description: "Bespoke greenery and artisan pots for the discerning curator.",
+  title: "Verdant | Botanical Archive & Registry",
+  description: "High-altitude specimens and rare flora for the discerning curator.",
 };
 
 export default function RootLayout({

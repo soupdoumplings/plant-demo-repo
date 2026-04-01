@@ -40,7 +40,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           {/* Brand & Newsletter */}
           <div className="col-span-1 md:col-span-2">
-            <h2 className="text-3xl font-serif mb-6 tracking-tighter">Petals & Pots</h2>
+            <h2 className="text-3xl font-serif italic mb-6 tracking-tighter">VERDANT</h2>
             <p className="text-muted-foreground mb-8 max-w-sm">
               Subscribe to receive botanical stories, plant care tips, and exclusive offers.
             </p>
@@ -88,7 +88,7 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-medium uppercase tracking-widest mb-6 border-b pb-2">Connect</h3>
             <ul className="space-y-4 text-sm text-on-surface mb-8">
-              <li><Link href="mailto:hello@petalsandpots.com" className="flex items-center gap-2 hover:text-primary transition-colors"><Mail className="h-4 w-4" /> Email Us</Link></li>
+              <li><Link href="mailto:hello@verdant.archive" className="flex items-center gap-2 hover:text-primary transition-colors"><Mail className="h-4 w-4" /> Email Us</Link></li>
             </ul>
             <div className="flex gap-4">
               <Link href="#" className="p-2 border hover:bg-primary hover:text-primary-foreground transition-colors"><Globe className="h-4 w-4" /></Link>
@@ -100,7 +100,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-muted-foreground uppercase tracking-widest">
-          <p>© 2026 Petals & Pots. Digitally Curated.</p>
+          <p>© 2026 VERDANT. Digitally Curated.</p>
           <div className="flex gap-8 mt-4 md:mt-0">
             <Link href="/terms" className="hover:text-primary">Terms</Link>
             <Link href="/privacy" className="hover:text-primary">Privacy</Link>

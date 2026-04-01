@@ -29,8 +29,8 @@ export function Header() {
         </div>
 
         {/* Center: Brand */}
-        <Link href="/" className="text-2xl font-serif tracking-tighter flex items-center gap-2">
-          <span>Petals & Pots</span>
+        <Link href="/" className="text-2xl font-serif italic tracking-tighter flex items-center gap-2">
+          <span>VERDANT</span>
         </Link>
 
         {/* Desktop: Nav Links */}

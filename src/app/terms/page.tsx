@@ -17,7 +17,7 @@ export default function TermsPage() {
           <div className="space-y-4">
             <h2 className="text-xs uppercase tracking-widest font-bold text-on-surface">1. Acceptance of Curation</h2>
             <p className="text-lg font-serif italic">
-              By accessing the digital catalog of Petals & Pots, you enter into a voluntary pact of botanical appreciation. 
+              By accessing the digital catalog of Verdant, you enter into a voluntary pact of botanical appreciation. 
               We curate only the finest specimens for those who value the intersection of design and nature.
             </p>
           </div>

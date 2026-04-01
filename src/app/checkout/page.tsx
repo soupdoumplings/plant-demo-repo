@@ -64,8 +64,8 @@ export default function CheckoutPage() {
           await fetch("/api/notify", {
             method: "POST",
             body: JSON.stringify({
-              to: data.userEmail || "curator@petalsandpots.com", // Fallback if user email not returned
-              subject: "A New Specimen Awaits | Petals & Pots Order Confirmation",
+              to: data.userEmail || "curator@verdant.archive", // Fallback if user email not returned
+              subject: "A New Specimen Awaits | Verdant Order Confirmation",
               html: `
                 <div style="font-family: 'Playfair Display', serif; color: #1c1c1c; max-width: 600px; margin: 0 auto; padding: 40px; border: 1px solid #f0f0f0;">
                   <h1 style="font-size: 32px; font-weight: normal; margin-bottom: 24px;">Order Confirmed</h1>
@@ -75,7 +75,7 @@ export default function CheckoutPage() {
                   <div style="border-top: 1px solid #f0f0f0; padding-top: 24px;">
                     <p style="font-size: 12px; color: #666;">We are currently preparing your collection for climate-controlled transport. You will receive a notification once the dispatch is underway.</p>
                   </div>
-                  <p style="margin-top: 60px; font-size: 10px; color: #ccc; text-transform: uppercase; letter-spacing: 3px;">Petals & Pots | Digitally Curated</p>
+                  <p style="margin-top: 60px; font-size: 10px; color: #ccc; text-transform: uppercase; letter-spacing: 3px;">Verdant | Botanical Archive & Registry</p>
                 </div>
               `
             })
