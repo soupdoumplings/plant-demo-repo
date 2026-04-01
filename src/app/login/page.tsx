@@ -15,7 +15,8 @@ export default function LoginPage() {
 
   return (
     <div className="bg-[#fbf9f4] text-[#31332c] selection:bg-[#c6e9e9] min-h-screen font-sans antialiased overflow-hidden">
-      <style dangerouslySetInnerHTML={{__html: `
+      <style dangerouslySetInnerHTML={{
+        __html: `
         @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Inter:wght@100..900&display=swap');
         .font-headline { font-family: 'Newsreader', serif; }
         .font-body { font-family: 'Inter', sans-serif; }
@@ -25,9 +26,9 @@ export default function LoginPage() {
       <main className="flex min-h-screen w-full">
         {/* Left Side: Editorial Image Section */}
         <section className="hidden md:flex md:w-1/2 lg:w-3/5 h-screen relative bg-[#e2e3d9] overflow-hidden">
-          <img 
-            alt="Editorial botanical photography" 
-            className="absolute inset-0 w-full h-full object-cover grayscale-[20%] sepia-[10%] opacity-90" 
+          <img
+            alt="Editorial botanical photography"
+            className="absolute inset-0 w-full h-full object-cover grayscale-[20%] sepia-[10%] opacity-90"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCexKRjTmKfy3ETBJXpzgNurmTAcFwZK_SSA2kIlJ9AQnZ5jeYe1Jrbj49pJJyh8-D5qIu2QFUQOw1D8VwDrDwuuQMxrSz_CPmB2BKpaXGy8HXGuS-yVCgdDpgDoiBwsIZvTQ7bVvmuu_5Dh9k-rAcHDUGxIfOEvX41bCtdW5xGNnlOsWtkjGjhSmgbUkUgEdPdPmoxdu81BtZDw30-7fkIfYZ56LvqKGcZBmaB0TxPUJm76hjIHDpXAub2ggabQsrkINt17pbkdQUk"
           />
           {/* Branding Overlay */}
@@ -76,11 +77,11 @@ export default function LoginPage() {
                 <label className="block font-label text-[0.6rem] uppercase tracking-[0.1rem] text-[#31332c]/60 mb-2 transition-colors group-focus-within:text-[#785a1a]" htmlFor="email">
                   Account Identifier
                 </label>
-                <input 
-                  className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0" 
-                  id="email" 
-                  name="email" 
-                  placeholder="Your botanical account" 
+                <input
+                  className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0"
+                  id="email"
+                  name="email"
+                  placeholder="Your botanical account"
                   type="email"
                   required
                 />
@@ -97,11 +98,11 @@ export default function LoginPage() {
                   </a>
                 </div>
                 <div className="relative">
-                  <input 
-                    className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0" 
-                    id="password" 
-                    name="password" 
-                    placeholder="••••••••" 
+                  <input
+                    className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0"
+                    id="password"
+                    name="password"
+                    placeholder="••••••••"
                     type="password"
                     required
                   />
@@ -116,8 +117,8 @@ export default function LoginPage() {
 
               {/* Actions */}
               <div className="pt-6 space-y-6">
-                <button 
-                  className="w-full bg-[#5f5e5e] text-[#faf7f6] font-label text-[0.75rem] uppercase tracking-[0.2rem] py-5 px-8 hover:bg-[#456565] transition-all duration-500 shadow-sm active:scale-[0.98]" 
+                <button
+                  className="w-full bg-[#5f5e5e] text-[#faf7f6] font-label text-[0.75rem] uppercase tracking-[0.2rem] py-5 px-8 hover:bg-[#456565] transition-all duration-500 shadow-sm active:scale-[0.98]"
                   type="submit"
                 >
                   Enter Account
@@ -143,7 +144,7 @@ export default function LoginPage() {
 
             <footer className="pt-12">
               <p className="font-label text-[0.55rem] text-[#797c73] leading-loose uppercase tracking-[0.05rem]">
-                © 2024 VERDANT BOTANICALS. <br/>
+                © 2024 VERDANT BOTANICALS. <br />
                 By entering, you agree to our <Link className="underline hover:text-[#785a1a]" href="/">Care Terms</Link> & <Link className="underline hover:text-[#785a1a]" href="/">Privacy Standards</Link>.
               </p>
             </footer>

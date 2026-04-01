@@ -15,7 +15,8 @@ export default function RegisterPage() {
 
   return (
     <div className="bg-[#fbf9f4] text-[#31332c] selection:bg-[#c6e9e9] min-h-screen font-sans antialiased overflow-hidden">
-      <style dangerouslySetInnerHTML={{__html: `
+      <style dangerouslySetInnerHTML={{
+        __html: `
         @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Inter:wght@100..900&display=swap');
         .font-headline { font-family: 'Newsreader', serif; }
         .font-body { font-family: 'Inter', sans-serif; }
@@ -25,9 +26,9 @@ export default function RegisterPage() {
       <main className="flex min-h-screen w-full">
         {/* Left Side: Editorial Image Section */}
         <section className="hidden md:flex md:w-1/2 lg:w-3/5 h-screen relative bg-[#e2e3d9] overflow-hidden">
-          <img 
-            alt="Editorial botanical photography" 
-            className="absolute inset-0 w-full h-full object-cover grayscale-[20%] sepia-[10%] opacity-90" 
+          <img
+            alt="Editorial botanical photography"
+            className="absolute inset-0 w-full h-full object-cover grayscale-[20%] sepia-[10%] opacity-90"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQJulT6o-Fqlbf097xLzB_KPyP9DCaOD2T1ZbtkZ6k0OyUVtW7IEea6UeLTihb_mD-iemRuz1rwNZyIDB_dc8XdvkRUATnKTKg-4LDIGsd7LhyXfFkUAoDxudh55KPIkdV21YQwwV7B2lHBybBh4bnyJVVfA-j4CtWV0uri1voKanDk-PFPEA-h27XSuEqGHSU5A05NB4-IAoWnhqhozizbYkpbTrSqtxeZnCF1A5rrbMEiuZbEodyYSC5HifVyJuVwEdAm4tKuRXR"
           />
           {/* Branding Overlay */}
@@ -53,7 +54,7 @@ export default function RegisterPage() {
           <div className="w-full max-w-md space-y-12">
             {/* Toggle Flow (Login/Signup Tabs) */}
             <div className="flex space-x-8 mb-16">
-              <Link href="/login" className="font-label text-[0.6875rem] uppercase tracking-[0.15rem] text-[#31332c]/40 hover:text-[#31332c] transition-colors duration-300 pb-2">
+               <Link href="/login" className="font-label text-[0.6875rem] uppercase tracking-[0.15rem] text-[#31332c]/40 hover:text-[#31332c] transition-colors duration-300 pb-2">
                 Member Access
               </Link>
               <button className="font-label text-[0.6875rem] uppercase tracking-[0.15rem] text-[#31332c] border-b border-[#31332c] pb-2 font-semibold">
@@ -76,11 +77,11 @@ export default function RegisterPage() {
                 <label className="block font-label text-[0.6rem] uppercase tracking-[0.1rem] text-[#31332c]/60 mb-2 transition-colors group-focus-within:text-[#785a1a]" htmlFor="name">
                   Full Name
                 </label>
-                <input 
-                  className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0" 
-                  id="name" 
-                  name="name" 
-                  placeholder="Your Name" 
+                <input
+                  className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
                   type="text"
                   required
                 />
@@ -91,11 +92,11 @@ export default function RegisterPage() {
                 <label className="block font-label text-[0.6rem] uppercase tracking-[0.1rem] text-[#31332c]/60 mb-2 transition-colors group-focus-within:text-[#785a1a]" htmlFor="email">
                   Account Identifier
                 </label>
-                <input 
-                  className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0" 
-                  id="email" 
-                  name="email" 
-                  placeholder="Email Address" 
+                <input
+                  className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address"
                   type="email"
                   required
                 />
@@ -106,11 +107,11 @@ export default function RegisterPage() {
                 <label className="block font-label text-[0.6rem] uppercase tracking-[0.1rem] text-[#31332c]/60 mb-2 transition-colors group-focus-within:text-[#785a1a]" htmlFor="password">
                   Security Key (Password)
                 </label>
-                <input 
-                  className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0" 
-                  id="password" 
-                  name="password" 
-                  placeholder="••••••••" 
+                <input
+                  className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0"
+                  id="password"
+                  name="password"
+                  placeholder="••••••••"
                   type="password"
                   required
                 />
@@ -121,11 +122,11 @@ export default function RegisterPage() {
                 <label className="block font-label text-[0.6rem] uppercase tracking-[0.1rem] text-[#31332c]/60 mb-2 transition-colors group-focus-within:text-[#785a1a]" htmlFor="confirm-password">
                   Confirm Security Key
                 </label>
-                <input 
-                  className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0" 
-                  id="confirm-password" 
-                  name="confirm-password" 
-                  placeholder="••••••••" 
+                <input
+                  className="w-full bg-transparent border-0 border-b border-[#797c73]/40 py-3 px-0 font-body text-[#31332c] placeholder:text-[#b1b3a9]/50 focus:border-[#785a1a] transition-all duration-300 outline-none shadow-none focus:ring-0"
+                  id="confirm-password"
+                  name="confirm-password"
+                  placeholder="••••••••"
                   type="password"
                   required
                 />
@@ -133,8 +134,8 @@ export default function RegisterPage() {
 
               {/* Actions */}
               <div className="pt-6 space-y-6">
-                <button 
-                  className="w-full bg-[#5f5e5e] text-[#faf7f6] font-label text-[0.75rem] uppercase tracking-[0.2rem] py-5 px-8 hover:bg-[#456565] transition-all duration-500 shadow-sm active:scale-[0.98]" 
+                <button
+                  className="w-full bg-[#5f5e5e] text-[#faf7f6] font-label text-[0.75rem] uppercase tracking-[0.2rem] py-5 px-8 hover:bg-[#456565] transition-all duration-500 shadow-sm active:scale-[0.98]"
                   type="submit"
                 >
                   Create Account
@@ -160,7 +161,7 @@ export default function RegisterPage() {
 
             <footer className="pt-12">
               <p className="font-label text-[0.55rem] text-[#797c73] leading-loose uppercase tracking-[0.05rem]">
-                © 2024 VERDANT BOTANICALS. <br/>
+                © 2024 VERDANT BOTANICALS. <br />
                 By joining, you agree to our <Link className="underline hover:text-[#785a1a]" href="/">Care Terms</Link> & <Link className="underline hover:text-[#785a1a]" href="/">Privacy Standards</Link>.
               </p>
             </footer>
