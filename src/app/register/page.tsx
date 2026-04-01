@@ -1,8 +1,19 @@
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+
 export default function RegisterPage() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-serif mb-8 text-center">Register</h1>
-      {/* Auth components will be implemented in later tickets */}
+    <div className="flex flex-col min-h-screen bg-surface">
+      <Header />
+      <main className="flex-1 container mx-auto px-4 py-32">
+        <h1 className="text-4xl md:text-6xl font-serif mb-8 text-center tracking-tighter">Join the Registry</h1>
+        <p className="text-center text-muted-foreground italic mb-12">Create an account to track your archival collection.</p>
+        <div className="max-w-md mx-auto p-12 bg-white border border-border">
+           {/* Auth Form to be completed in Sprint tickets */}
+           <p className="text-center text-sm opacity-50 uppercase tracking-widest">Registration Form Pending</p>
+        </div>
+      </main>
+      <Footer />
     </div>
   );
 }
